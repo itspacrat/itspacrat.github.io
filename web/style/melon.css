@@ -120,9 +120,6 @@ div.parent {
 	background-color: var(--background-overlay);
 }
 
-div.left {
-	/*display:inline;*/
-}
 .staple {
 	display:inline-table;
 	clear:both;
