@@ -75,7 +75,7 @@ img {
 p,ul,h1,h2,h3,h4,h5,h6 {
 	font-family: var(--text-font-info);
 	color: var(--text-color-foreground);
-	text-shadow: #023528 5px 4px 3px;
+	text-shadow: #9e0b5cab 5px 4px 3px;
 }
 
 p {
@@ -137,13 +137,13 @@ div.parent {
 a {
 	padding:4px;
 	border-style: none;
-	border-radius: none;
+	border-radius: calc( var(--block-border-radius) + 50px );
 	background-color: var(--background-overlay);
 	text-decoration: none;
 	font-weight: bold;
 	margin-bottom: 10vw;
 	transition: padding, var(--page-time-scale), font-weight var(--page-time-scale), margin-bottom var(--page-time-scale), color var(--page-time-scale),
-		border-radius var(--page-time-scale), font-size var(--page-time-scale);
+		border-radius var(--page-time-scale), font-size var(--page-time-scale), text-shadow var(--page-time-scale);
 }
 
 a:hover {
@@ -151,6 +151,7 @@ a:hover {
 	color: var(--text-color-accent);
 	border-radius: var(--block-border-radius);
 	margin-bottom: 2vw;
+	text-shadow: #0062a3 6px 6px;
 	font-size: calc( var(--font-readable-size) + 1pt);
 }
 
