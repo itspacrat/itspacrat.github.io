@@ -75,10 +75,12 @@ img {
 p,h1,h2,h3,h4,h5,h6 {
 	font-family: var(--text-font-info);
 	color: var(--text-color-foreground);
+	text-shadow: #023528 5px 4px 3px;
 }
 
 p {
 	text-indent: 32px;
+	
 }
 p,
 a {
@@ -110,7 +112,8 @@ div {
 	margin-right:20px;
 	margin-bottom: var(--page-scale-factor);
 	border-style: solid;
-	border-color: rgba(40, 40, 100, 0);
+	border-width:3px 5px 3px 5px;
+	border-color: rgba(99, 2, 65, 0.425) rgba(51, 22, 41, 0.24)#3c9485 #599b8b;
 	border-radius: var(--block-border-radius);
 	background-color: var(--background-overlay);
 	padding: var(--page-scale-factor);
